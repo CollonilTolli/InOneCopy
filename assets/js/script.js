@@ -6,7 +6,6 @@ const sliderMain = new ColSlider ({
     scrollingSpeed: 500,  
     indent: 0,
 })
-
 const springSlider = new ColSlider ({
     sliderName: "spring-slider",
     dots: true,
@@ -35,6 +34,10 @@ const winterSlider = new ColSlider ({
     scrollingSpeed: 500,
     indent: 0,
 })
+
+
+
+
 
 function isWindowSmall() {
     if(window.innerWidth < 1529) return true;
